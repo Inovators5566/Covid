@@ -79,8 +79,8 @@ class App extends React.Component {
       
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Cards data={data} />
-        <b id ="k">SELECT BOTH OR ONE </b>
-        <CountryPicker handleCountryChange={this.handleCountryChange} />
+        <b id ="k"></b>
+        
         <Chart data={data} country={country} /> 
       </div>
     );
