@@ -71,7 +71,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
           ],
         }}
       />
-    ) : null
+    ): null
   );
 
   return (
